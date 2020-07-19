@@ -1,2 +1,2 @@
 # mcu
-A website dedicated to providing myself and others a database based on the Marvel Cinematic Universe and its collection of cinematic masterpieces. Coded using HTML, CSS, and JS from a Marvel fanatic, it includes written reviews, movie rankings, character summaries and rankings, and much more. 
+A website dedicated to providing myself and others a database based on the Marvel Cinematic Universe and its collection of cinematic masterpieces. Coded using HTML, CSS, and JS from a Marvel fanatic, it includes written reviews, movie rankings, character summaries and rankings, and much more. The reviews are carefully written with attention to plot, action and importance to the Marvel Cinematic Universe through my own personal perspective.
