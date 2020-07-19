@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+
+<body>
+    <!--<div id="header"><img src="logo.png" id="logo"></div>-->
+    <nav>
+    <div class="nav-wrapper white">
+      <img src="logo.png" id="logo">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="actives"><a href="index.html">Home</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="sass.html">Reviews</a></li>
+        <li><a href="badges.html">TV Shows</a></li>
+        <li><a href="#!">Phase 4</a></li>
+        <li><a href="#!">Rankings/Lists</a></li>
+        <li><a href="#!">Characters</a></li>
+        <li><a href="#!">Feedback</a></li>  
+      </ul>
+    </div>
+    </nav>
+    
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="ironman.png" style="width:90%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="cap.png" style="width:90%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="doctor.png" style="width:90%">
+  
+</div>
+<div class="mySlides fade">
+  <img src="spider.png" style="width:90%">
+  
+</div>
+        
+<div class="mySlides fade">
+  <img src="widow.png" style="width:90%">
+  
+</div>
+<div class="mySlides fade">
+  <img src="blackpanther.png" style="width:90%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>    
+</div>
+</body>
+
+<script>
+    
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+</script>
+    
+</html>
