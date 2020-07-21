@@ -1,0 +1,59 @@
+#header {
+    width: 100%;
+    height: 150px;
+}
+#logo {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 50px;
+}
+nav ul li a{
+  color: #f07c60;
+}    
+nav ul li:hover {
+   background-color: #3e92de;
+   border-bottom: 3px solid #f07c60;
+}
+.actives {
+   border-bottom: 3px solid #3e92de;
+}
+.actives:hover {
+   border-bottom: 3px solid #3e92de;
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.left {
+    height: 100%;
+}
+.contain {
+    
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.con {
+    padding-top: 10px;
+    
+}
+.card-action {
+    @extend .blue-text, .text-lighten-4;
+  }
+.contain2 {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.cardimg {
+    height: 240px;
+}
