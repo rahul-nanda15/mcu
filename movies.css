@@ -57,3 +57,45 @@ nav ul li:hover {
 .cardimg {
     height: 240px;
 }
+.title {
+    color: #f07c60;
+    border-bottom: #3e92de solid 2px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.tcontain {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.author{
+    font-size: 12px;
+    padding-top: 10px;
+    color: #3e92de;
+}
+.navigation {
+    height: 130px;
+    background-color: #f07c60;
+    
+}
+.navigationcontain {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+.navtext {
+    padding: 20px;
+
+    
+}
+#white {
+    background-color: #f07c60;
+    color: white;
+ 
+}
+#white:hover {
+    color: #3e92de;
+}
+a {
+    padding-right: 30px;
+}
